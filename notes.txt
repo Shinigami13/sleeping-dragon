@@ -1,0 +1,5 @@
+How come there isnt a .rb file that I can run like sinatra to the server?
+
+I bundled am i missing something
+
+well for starters this isn't sinatra its rails so i have to run rails server!
