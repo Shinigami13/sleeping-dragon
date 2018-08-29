@@ -1,0 +1,8 @@
+<h1>Register your Business</h1>
+<p>Use our platform to put your business all out there!</p>
+<%= form_for(@company) do |f| %>
+<label>Company Name</label>
+<% f.text_field :name %> <br>
+<%= f.text_field >:industry  %> <br>
+
+<%= f.submit 'Register Company' %>
