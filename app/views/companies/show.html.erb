@@ -3,5 +3,7 @@
 
 <h3>Your Departments </h3>
 @company.departments.each do |dept|
-<h5><%= link_to "#{dept.name}"%> </h5>
+<h5><%= link_to "#{dept.name}", company_department_path(@company.id, dept.id)%> </h5>
+end
 <%= link_to 'Create a Department', new_company_department_path(@company.id) %>
+<%= link_to 'Add an Employee', new_company_employee_path(@company.id) %>

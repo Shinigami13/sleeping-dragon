@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'departments/show'
   get 'departments/index'
   root 'pages#home'
+  get 'mycompanies' => ' '
   get 'new-company' => 'companies#new'
   get 'companies/new'
   get 'companies/show'
