@@ -1,0 +1,14 @@
+
+Employees -> (user account) 
+
+company.rb
+name 
+industry
+
+Deparyments 
+company_id 
+has_many :employees (users) 
+
+
+#you would start wireframing
+
